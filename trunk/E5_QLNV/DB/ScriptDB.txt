@@ -102,6 +102,7 @@ CREATE TABLE [dbo].[NhanVien](
 	[GioiTinh] [int] NOT NULL,
 	[NgaySinh] [datetime] NULL,
 	[DiaChi] [nvarchar](50) NULL,
+	[NgayBatDauLamViec] [datetime] NOT NULL,
 	[MaBangCap] [int] NULL,
 	[MaChucVu] [int] NULL,
 	[MaQuocTich] [int] NULL,
@@ -145,3 +146,4 @@ CREATE TABLE [dbo].[PhanCongDuAn](
 )WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
+
