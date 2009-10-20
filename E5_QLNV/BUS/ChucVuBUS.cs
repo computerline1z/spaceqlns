@@ -8,9 +8,13 @@ namespace BUS
 {
     public class ChucVuBUS
     {
-        public static DataTable LayChucVu()
+        /*public static DataTable LayChucVu()
         {
             return ChucVuDAO.LayChucVu();
+        }*/
+        public static List<ChucVuDTO> LoadAll()
+        {
+            return ChucVuDAO.LoadAll();
         }
         public static List<ChucVuDTO> LoadAll()
         {
