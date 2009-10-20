@@ -5,7 +5,7 @@ using DTO;
 
 namespace DAO
 {
-    class NhanVienDAO
+    public class NhanVienDAO
     {
         
         public static bool ThemNhanVien(NhanVienDTO nv)
