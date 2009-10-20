@@ -5,6 +5,8 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using BUS;
+using DTO;
 
 
 namespace E5_QLNV
@@ -18,7 +20,7 @@ namespace E5_QLNV
 
         private void OnLoad(object sender, EventArgs e)
         {
-           
+            this.dgvDanhSach.DataSource = NhanVienBUS.LoadAll();
         }
 
     }
