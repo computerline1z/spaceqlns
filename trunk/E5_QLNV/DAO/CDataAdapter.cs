@@ -9,16 +9,16 @@ namespace DAO
     public class CDataAdapter
     {
         private string strConnection = "Data Source=UDMAN\\SQLEXPRESS ;Initial Catalog=QLNV; Integrated Security = True";
-        private OleDbConnection mCon = null;
+        private SqlConnection mCon = null;
         public CDataAdapter()
         {
-            mCon = new OleDbConnection();
+            mCon = new SqlConnection ();
             mCon.ConnectionString = strConnection;
         }
         public int ExecuteNonQuery(string sql)
         {
             int n = 0;
-            OleDbCommand cmd = new OleDbCommand();
+            SqlCommand cmd = new SqlCommand ();
             try
             {
                 mCon.Open();
@@ -44,7 +44,7 @@ namespace DAO
             try
             {
                 mCon.Open();
-                OleDbDataAdapter dap = new OleDbDataAdapter(sql, mCon);
+                SqlDataAdapter dap = new SqlDataAdapter(sql, mCon);                
                 dt = new DataTable();
                 dap.Fill(dt);
             }
