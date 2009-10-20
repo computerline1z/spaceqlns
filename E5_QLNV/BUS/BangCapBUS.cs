@@ -9,10 +9,14 @@ namespace BUS
 {
    public class BangCapBUS
     {
-        public static DataTable LayBangCap()
+        /*public static DataTable LayBangCap()
         {
             return BangCapDAO .LayBangCap ();
-        }
+        }*/
+       public static List<BangCapDTO> LoadAll()
+       {
+           return BangCapDAO.LoadAll();
+       }
        public static List<BangCapDTO> LoadAll()
        {
            return BangCapDAO.LoadAll();
