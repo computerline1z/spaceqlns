@@ -15,15 +15,17 @@ namespace DAO
             mCon = new OleDbConnection();
             mCon.ConnectionString = strConnection;
         }
-        public void ExecuteNonQuery(string sql)
+        public int ExecuteNonQuery(string sql)
         {
+            int n = 0;
             OleDbCommand cmd = new OleDbCommand();
             try
             {
                 mCon.Open();
                 cmd.Connection = mCon;
                 cmd.CommandText = sql;
-                cmd.ExecuteNonQuery();
+                n=cmd.ExecuteNonQuery();
+                
             }
             catch (Exception ex)
             {
@@ -34,6 +36,7 @@ namespace DAO
                 if (mCon.State == ConnectionState.Open)
                     mCon.Close();
             }
+            return n;
         }
         public DataTable ExecuteQuery(string sql)
         {

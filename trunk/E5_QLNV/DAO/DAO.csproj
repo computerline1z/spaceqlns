@@ -33,9 +33,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BangCapDAO.cs" />
+    <Compile Include="BoPhanDAO.cs" />
     <Compile Include="CDataAdapter.cs" />
+    <Compile Include="ChucVuDAO.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="NhanVienDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuocTichDAO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{7A6C9238-EB66-46B3-A3A4-F3B41B284FDF}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

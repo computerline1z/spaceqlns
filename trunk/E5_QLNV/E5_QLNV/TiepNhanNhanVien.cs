@@ -13,6 +13,14 @@ namespace E5_QLNV
         public TiepNhanNhanVien()
         {
             InitializeComponent();
+
         }
+
+        private void btnTiepNhan_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }
