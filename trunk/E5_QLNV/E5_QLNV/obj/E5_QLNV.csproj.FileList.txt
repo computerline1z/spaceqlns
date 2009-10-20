@@ -1,0 +1,7 @@
+bin\Debug\E5_QLNV.exe
+bin\Debug\E5_QLNV.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\E5_QLNV.Properties.Resources.resources
+obj\Debug\E5_QLNV.csproj.GenerateResource.Cache
+obj\Debug\E5_QLNV.exe
+obj\Debug\E5_QLNV.pdb
