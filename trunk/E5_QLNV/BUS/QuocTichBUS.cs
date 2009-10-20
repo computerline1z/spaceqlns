@@ -17,9 +17,6 @@ namespace BUS
         {
             return QuocTichDAO.LoadAll();
         }
-        public static List<QuocTichDTO> LoadAll()
-        {
-            return QuocTichDAO.LoadAll();
-        }
+       
     }
 }

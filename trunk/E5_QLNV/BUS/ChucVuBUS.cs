@@ -12,10 +12,7 @@ namespace BUS
         {
             return ChucVuDAO.LayChucVu();
         }*/
-        public static List<ChucVuDTO> LoadAll()
-        {
-            return ChucVuDAO.LoadAll();
-        }
+       
         public static List<ChucVuDTO> LoadAll()
         {
             return ChucVuDAO.LoadAll();
