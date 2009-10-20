@@ -1,10 +1,17 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Data;
+using DAO;
+using DTO;
 
 namespace BUS
 {
-    class NhanVienBUS
+    public class NhanVienBUS
     {
+        public static bool ThemNhanVien(NhanVienDTO nv)
+        {
+            return NhanVienDAO.ThemNhanVien(nv);
+        }
     }
 }
