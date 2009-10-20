@@ -14,5 +14,10 @@ namespace E5_QLNV
         {
             InitializeComponent();
         }
+
+        private void btsua_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -14,5 +14,10 @@ namespace E5_QLNV
         {
             InitializeComponent();
         }
+
+        private void NhomSuDung_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
