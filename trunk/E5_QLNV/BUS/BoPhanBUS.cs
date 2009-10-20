@@ -8,9 +8,13 @@ namespace BUS
 {
     public class BoPhanBUS
     {
-        public static DataTable LayBoPhan()
+        /*public static DataTable LayBoPhan()
         {                            
                 return BoPhanDAO .LayBoPhan ();
+        }*/
+        public static List<BoPhanDTO >LoadAll()
+        {
+            return BoPhanDAO.LoadAll();
         }
         public static List<BoPhanDTO> LoadAll()
         {
