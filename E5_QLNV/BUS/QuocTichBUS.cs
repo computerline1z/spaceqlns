@@ -9,9 +9,13 @@ namespace BUS
 {
     public class QuocTichBUS
     {
-        public static DataTable LayQuocTich()
+        /*public static DataTable LayQuocTich()
         {
             return QuocTichDAO.LayQuocTich();
+        }*/
+        public static List<QuocTichDTO>LoadAll()
+        {
+            return QuocTichDAO.LoadAll();
         }
         public static List<QuocTichDTO> LoadAll()
         {
