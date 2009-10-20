@@ -8,13 +8,13 @@ namespace DAO
 {
     public class BangCapDAO
     {
-        public static DataTable LayBangCap()
+        /*public static DataTable LayBangCap()
         {
-            string sql = "select * from BangCap ";
+            string sql = "select* from BangCap ";
             CDataAdapter c = new CDataAdapter();
             DataTable tb = c.ExecuteQuery(sql);            
             return tb;
-        }
+        }*/
         public static List<BangCapDTO> LoadAll()
         {
             List<BangCapDTO> list = new List<BangCapDTO>();

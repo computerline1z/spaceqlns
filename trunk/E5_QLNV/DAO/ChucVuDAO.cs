@@ -8,13 +8,13 @@ namespace DAO
 {
    public class ChucVuDAO
     {
-       public static DataTable LayChucVu()
+       /*public static DataTable LayChucVu()
        {
            string sql = "select * from ChucVu ";
            CDataAdapter c = new CDataAdapter();
            DataTable tb = c.ExecuteQuery(sql);
            return tb;
-       }
+       }*/
 
        public static List<ChucVuDTO> LoadAll()
        {

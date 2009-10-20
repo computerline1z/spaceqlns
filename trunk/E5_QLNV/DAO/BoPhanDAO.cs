@@ -7,13 +7,13 @@ namespace DAO
 {
     public class BoPhanDAO
     {
-        public static DataTable LayBoPhan()
+        /*public static DataTable LayBoPhan()
         {
             string sql = "select * from BoPhan ";
             CDataAdapter c = new CDataAdapter();
             DataTable tb = c.ExecuteQuery(sql);
             return tb;
-        }
+        }*/
         public static List<BoPhanDTO> LoadAll()
         {
             List<BoPhanDTO> list = new List<BoPhanDTO>();
