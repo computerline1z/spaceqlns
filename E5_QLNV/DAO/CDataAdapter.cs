@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Data.OleDb;
+using System.Data.SqlClient;
 using System.Data;
 
 namespace DAO
 {
     public class CDataAdapter
     {
-        private string strConnection = "Data Source=DUYTUYEN-PC ;Initial Catalog=QLNV; Integrated Security = True";
+        private string strConnection = "Data Source=UDMAN\\SQLEXPRESS ;Initial Catalog=QLNV; Integrated Security = True";
         private OleDbConnection mCon = null;
         public CDataAdapter()
         {
