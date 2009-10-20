@@ -6,7 +6,7 @@ namespace DTO
 {
     class NhanVienDTO
     {
-
+        //phu
 
     }
 }
