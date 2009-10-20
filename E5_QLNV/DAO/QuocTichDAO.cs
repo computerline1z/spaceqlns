@@ -8,14 +8,14 @@ namespace DAO
 {
    public class QuocTichDAO
     {
-       public static DataTable LayQuocTich()
+       /*public static DataTable LayQuocTich()
        {
            string sql = "select * from QuocTich ";
            CDataAdapter c = new CDataAdapter();
            DataTable tb = c.ExecuteQuery(sql);
            return tb;
        }
-
+       */
        public static List<QuocTichDTO> LoadAll()
        {
            List<QuocTichDTO> list = new List<QuocTichDTO>();
