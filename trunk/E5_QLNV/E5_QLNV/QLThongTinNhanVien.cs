@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
+
 namespace E5_QLNV
 {
     public partial class QLThongTinNhanVien : Form
@@ -14,5 +15,11 @@ namespace E5_QLNV
         {
             InitializeComponent();
         }
+
+        private void OnLoad(object sender, EventArgs e)
+        {
+            
+        }
+
     }
 }

@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Data;
 using DTO;
 
 namespace DAO
@@ -21,5 +22,15 @@ namespace DAO
                 kq = true;
             return kq;
         }
+
+        public static DataTable LoadDanhSach()
+        {
+            System.Data.DataTable dt = new System.Data.DataTable();
+            string sql = " select * from NhanVien";
+            CDataAdapter c = new CDataAdapter();
+            dt = c.ExecuteQuery(sql);
+            return dt;
+        }
+
     }
 }
