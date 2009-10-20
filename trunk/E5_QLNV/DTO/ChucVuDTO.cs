@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace E5_QLNV
+namespace DTO
 {
     public class ChucVuDTO
     {
