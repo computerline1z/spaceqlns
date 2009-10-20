@@ -8,7 +8,6 @@ using System.Windows.Forms;
 //using System.Data;
 using BUS;
 using DTO;
-using DAO;
 
 namespace E5_QLNV
 {
