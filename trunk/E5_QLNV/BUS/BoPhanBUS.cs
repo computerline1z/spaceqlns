@@ -12,5 +12,9 @@ namespace BUS
         {                            
                 return BoPhanDAO .LayBoPhan ();
         }
+        public static List<BoPhanDTO> LoadAll()
+        {
+            return BoPhanDAO.LoadAll();
+        }
     }
 }

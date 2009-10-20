@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cbmQuocTich = new System.Windows.Forms.ComboBox();
-            this.cmbBangCap = new System.Windows.Forms.ComboBox();
-            this.cbmBoPhan = new System.Windows.Forms.ComboBox();
-            this.cmbGioiTinh = new System.Windows.Forms.ComboBox();
-            this.cmbChucVu = new System.Windows.Forms.ComboBox();
+            this.cbQuocTich = new System.Windows.Forms.ComboBox();
+            this.cbBangCap = new System.Windows.Forms.ComboBox();
+            this.cbBoPhan = new System.Windows.Forms.ComboBox();
+            this.cbGioiTinh = new System.Windows.Forms.ComboBox();
+            this.cbChucVu = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -46,51 +46,61 @@
             this.txtMaNV = new System.Windows.Forms.TextBox();
             this.dgvDanhSach = new System.Windows.Forms.DataGridView();
             this.dtpNgaySinh = new System.Windows.Forms.DateTimePicker();
+            this.label10 = new System.Windows.Forms.Label();
+            this.dtpNgayBatDauLamViec = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSach)).BeginInit();
             this.SuspendLayout();
             // 
-            // cbmQuocTich
+            // cbQuocTich
             // 
-            this.cbmQuocTich.FormattingEnabled = true;
-            this.cbmQuocTich.Location = new System.Drawing.Point(335, 126);
-            this.cbmQuocTich.Name = "cbmQuocTich";
-            this.cbmQuocTich.Size = new System.Drawing.Size(121, 21);
-            this.cbmQuocTich.TabIndex = 18;
+            this.cbQuocTich.DisplayMember = "QuocTich";
+            this.cbQuocTich.FormattingEnabled = true;
+            this.cbQuocTich.Location = new System.Drawing.Point(587, 126);
+            this.cbQuocTich.Name = "cbQuocTich";
+            this.cbQuocTich.Size = new System.Drawing.Size(121, 21);
+            this.cbQuocTich.TabIndex = 18;
+            this.cbQuocTich.ValueMember = "MaQuocTich";
             // 
-            // cmbBangCap
+            // cbBangCap
             // 
-            this.cmbBangCap.FormattingEnabled = true;
-            this.cmbBangCap.Location = new System.Drawing.Point(587, 91);
-            this.cmbBangCap.Name = "cmbBangCap";
-            this.cmbBangCap.Size = new System.Drawing.Size(121, 21);
-            this.cmbBangCap.TabIndex = 17;
+            this.cbBangCap.DisplayMember = "BangCap";
+            this.cbBangCap.FormattingEnabled = true;
+            this.cbBangCap.Location = new System.Drawing.Point(587, 91);
+            this.cbBangCap.Name = "cbBangCap";
+            this.cbBangCap.Size = new System.Drawing.Size(121, 21);
+            this.cbBangCap.TabIndex = 17;
+            this.cbBangCap.ValueMember = "MaBangCap";
             // 
-            // cbmBoPhan
+            // cbBoPhan
             // 
-            this.cbmBoPhan.FormattingEnabled = true;
-            this.cbmBoPhan.Location = new System.Drawing.Point(587, 62);
-            this.cbmBoPhan.Name = "cbmBoPhan";
-            this.cbmBoPhan.Size = new System.Drawing.Size(121, 21);
-            this.cbmBoPhan.TabIndex = 19;
+            this.cbBoPhan.DisplayMember = "BoPhan";
+            this.cbBoPhan.FormattingEnabled = true;
+            this.cbBoPhan.Location = new System.Drawing.Point(587, 62);
+            this.cbBoPhan.Name = "cbBoPhan";
+            this.cbBoPhan.Size = new System.Drawing.Size(121, 21);
+            this.cbBoPhan.TabIndex = 19;
+            this.cbBoPhan.ValueMember = "MaBoPhan";
             // 
-            // cmbGioiTinh
+            // cbGioiTinh
             // 
-            this.cmbGioiTinh.FormattingEnabled = true;
-            this.cmbGioiTinh.Items.AddRange(new object[] {
+            this.cbGioiTinh.FormattingEnabled = true;
+            this.cbGioiTinh.Items.AddRange(new object[] {
             "Nam",
             "Nữ"});
-            this.cmbGioiTinh.Location = new System.Drawing.Point(335, 91);
-            this.cmbGioiTinh.Name = "cmbGioiTinh";
-            this.cmbGioiTinh.Size = new System.Drawing.Size(121, 21);
-            this.cmbGioiTinh.TabIndex = 21;
+            this.cbGioiTinh.Location = new System.Drawing.Point(361, 91);
+            this.cbGioiTinh.Name = "cbGioiTinh";
+            this.cbGioiTinh.Size = new System.Drawing.Size(121, 21);
+            this.cbGioiTinh.TabIndex = 21;
             // 
-            // cmbChucVu
+            // cbChucVu
             // 
-            this.cmbChucVu.FormattingEnabled = true;
-            this.cmbChucVu.Location = new System.Drawing.Point(335, 61);
-            this.cmbChucVu.Name = "cmbChucVu";
-            this.cmbChucVu.Size = new System.Drawing.Size(121, 21);
-            this.cmbChucVu.TabIndex = 20;
+            this.cbChucVu.DisplayMember = "ChucVu";
+            this.cbChucVu.FormattingEnabled = true;
+            this.cbChucVu.Location = new System.Drawing.Point(361, 61);
+            this.cbChucVu.Name = "cbChucVu";
+            this.cbChucVu.Size = new System.Drawing.Size(121, 21);
+            this.cbChucVu.TabIndex = 20;
+            this.cbChucVu.ValueMember = "MaChucVu";
             // 
             // label4
             // 
@@ -133,7 +143,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(264, 129);
+            this.label9.Location = new System.Drawing.Point(507, 129);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(57, 13);
             this.label9.TabIndex = 9;
@@ -142,7 +152,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(493, 94);
+            this.label8.Location = new System.Drawing.Point(507, 94);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(54, 13);
             this.label8.TabIndex = 8;
@@ -151,7 +161,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(493, 65);
+            this.label7.Location = new System.Drawing.Point(507, 65);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(48, 13);
             this.label7.TabIndex = 10;
@@ -196,6 +206,7 @@
             this.dgvDanhSach.Name = "dgvDanhSach";
             this.dgvDanhSach.Size = new System.Drawing.Size(695, 200);
             this.dgvDanhSach.TabIndex = 22;
+            this.dgvDanhSach.SelectionChanged += new System.EventHandler(this.dgvDanhSach_SelectionChanged);
             // 
             // dtpNgaySinh
             // 
@@ -205,18 +216,37 @@
             this.dtpNgaySinh.Size = new System.Drawing.Size(121, 20);
             this.dtpNgaySinh.TabIndex = 23;
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(264, 129);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(72, 13);
+            this.label10.TabIndex = 24;
+            this.label10.Text = "Ngày bắt đầu";
+            // 
+            // dtpNgayBatDauLamViec
+            // 
+            this.dtpNgayBatDauLamViec.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpNgayBatDauLamViec.Location = new System.Drawing.Point(361, 125);
+            this.dtpNgayBatDauLamViec.Name = "dtpNgayBatDauLamViec";
+            this.dtpNgayBatDauLamViec.Size = new System.Drawing.Size(121, 20);
+            this.dtpNgayBatDauLamViec.TabIndex = 25;
+            // 
             // QLThongTinNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(750, 412);
+            this.ClientSize = new System.Drawing.Size(753, 396);
+            this.Controls.Add(this.dtpNgayBatDauLamViec);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.dtpNgaySinh);
             this.Controls.Add(this.dgvDanhSach);
-            this.Controls.Add(this.cbmQuocTich);
-            this.Controls.Add(this.cmbBangCap);
-            this.Controls.Add(this.cbmBoPhan);
-            this.Controls.Add(this.cmbGioiTinh);
-            this.Controls.Add(this.cmbChucVu);
+            this.Controls.Add(this.cbQuocTich);
+            this.Controls.Add(this.cbBangCap);
+            this.Controls.Add(this.cbBoPhan);
+            this.Controls.Add(this.cbGioiTinh);
+            this.Controls.Add(this.cbChucVu);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -239,11 +269,11 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox cbmQuocTich;
-        private System.Windows.Forms.ComboBox cmbBangCap;
-        private System.Windows.Forms.ComboBox cbmBoPhan;
-        private System.Windows.Forms.ComboBox cmbGioiTinh;
-        private System.Windows.Forms.ComboBox cmbChucVu;
+        private System.Windows.Forms.ComboBox cbQuocTich;
+        private System.Windows.Forms.ComboBox cbBangCap;
+        private System.Windows.Forms.ComboBox cbBoPhan;
+        private System.Windows.Forms.ComboBox cbGioiTinh;
+        private System.Windows.Forms.ComboBox cbChucVu;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
@@ -257,6 +287,8 @@
         private System.Windows.Forms.TextBox txtMaNV;
         private System.Windows.Forms.DataGridView dgvDanhSach;
         private System.Windows.Forms.DateTimePicker dtpNgaySinh;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.DateTimePicker dtpNgayBatDauLamViec;
 
     }
 }
