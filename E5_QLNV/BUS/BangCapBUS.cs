@@ -17,9 +17,6 @@ namespace BUS
        {
            return BangCapDAO.LoadAll();
        }
-       public static List<BangCapDTO> LoadAll()
-       {
-           return BangCapDAO.LoadAll();
-       }
+       
     }
 }
