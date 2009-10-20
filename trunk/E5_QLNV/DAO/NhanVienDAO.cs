@@ -23,13 +23,36 @@ namespace DAO
             return kq;
         }
 
-        public static DataTable LoadDanhSach()
+        public static List<NhanVienDTO> LoadALl()
         {
-            System.Data.DataTable dt = new System.Data.DataTable();
-            string sql = " select * from NhanVien";
-            CDataAdapter c = new CDataAdapter();
-            dt = c.ExecuteQuery(sql);
-            return dt;
+            List<NhanVienDTO> list = new List<NhanVienDTO>();
+            string sql = "select * from NHANVIEN";
+            try
+            {
+                CDataAdapter c = new CDataAdapter();
+                DataTable dt = new DataTable();
+                dt = c.ExecuteQuery(sql);
+                foreach (DataRow dr in dt.Rows)
+                {
+                    NhanVienDTO nv = new NhanVienDTO();
+                    nv.MaNV = int.Parse(dr["MaNV"].ToString());
+                    nv.HoTenNV = dr["HoTenNV"].ToString();
+                    nv.GioiTinh = int.Parse(dr["GioiTinh"].ToString());
+                    nv.NgaySinh = Convert.ToDateTime(dr["NgaySinh"].ToString()); ;
+                    nv.DiaChi = dr["DiaChi"].ToString();
+                    nv.NgayBatDauLamViec = Convert.ToDateTime(dr["NgayBatDauLamViec"].ToString());
+                    nv.MaBanngCap = int.Parse(dr["MaBangCap"].ToString());
+                    nv.MaBoPhan = int.Parse(dr["MaBoPhan"].ToString());
+                    nv.MaChucVu = int.Parse(dr["MaChucVu"].ToString());
+                    nv.MaQuocTich = int.Parse(dr["MaQuocTich"].ToString());
+                    list.Add(nv);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return list;
         }
 
     }
