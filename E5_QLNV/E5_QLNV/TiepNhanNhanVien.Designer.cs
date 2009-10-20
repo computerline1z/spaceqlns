@@ -37,14 +37,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.cmbChucVu = new System.Windows.Forms.ComboBox();
+            this.cbmBoPhan = new System.Windows.Forms.ComboBox();
+            this.cmbBangCap = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.cbmQuocTich = new System.Windows.Forms.ComboBox();
             this.cmbGioiTinh = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
@@ -56,6 +56,7 @@
             this.btnTiepNhan.TabIndex = 0;
             this.btnTiepNhan.Text = "Tiếp Nhận";
             this.btnTiepNhan.UseVisualStyleBackColor = true;
+            this.btnTiepNhan.Click += new System.EventHandler(this.btnTiepNhan_Click);
             // 
             // txtMaNV
             // 
@@ -125,29 +126,29 @@
             this.label5.TabIndex = 2;
             this.label5.Text = "TIẾP NHẬN NHÂN SỰ";
             // 
-            // comboBox1
+            // cmbChucVu
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(429, 58);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 3;
+            this.cmbChucVu.FormattingEnabled = true;
+            this.cmbChucVu.Location = new System.Drawing.Point(429, 58);
+            this.cmbChucVu.Name = "cmbChucVu";
+            this.cmbChucVu.Size = new System.Drawing.Size(121, 21);
+            this.cmbChucVu.TabIndex = 3;
             // 
-            // comboBox2
+            // cbmBoPhan
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(429, 92);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
-            this.comboBox2.TabIndex = 3;
+            this.cbmBoPhan.FormattingEnabled = true;
+            this.cbmBoPhan.Location = new System.Drawing.Point(429, 92);
+            this.cbmBoPhan.Name = "cbmBoPhan";
+            this.cbmBoPhan.Size = new System.Drawing.Size(121, 21);
+            this.cbmBoPhan.TabIndex = 3;
             // 
-            // comboBox3
+            // cmbBangCap
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(429, 131);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 21);
-            this.comboBox3.TabIndex = 3;
+            this.cmbBangCap.FormattingEnabled = true;
+            this.cmbBangCap.Location = new System.Drawing.Point(429, 131);
+            this.cmbBangCap.Name = "cmbBangCap";
+            this.cmbBangCap.Size = new System.Drawing.Size(121, 21);
+            this.cmbBangCap.TabIndex = 3;
             // 
             // label6
             // 
@@ -185,13 +186,13 @@
             this.label9.TabIndex = 2;
             this.label9.Text = "Quốc Tịch";
             // 
-            // comboBox4
+            // cbmQuocTich
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(429, 163);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(121, 21);
-            this.comboBox4.TabIndex = 3;
+            this.cbmQuocTich.FormattingEnabled = true;
+            this.cbmQuocTich.Location = new System.Drawing.Point(429, 163);
+            this.cbmQuocTich.Name = "cbmQuocTich";
+            this.cbmQuocTich.Size = new System.Drawing.Size(121, 21);
+            this.cbmQuocTich.TabIndex = 3;
             // 
             // cmbGioiTinh
             // 
@@ -209,11 +210,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(617, 301);
-            this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.cbmQuocTich);
+            this.Controls.Add(this.cmbBangCap);
+            this.Controls.Add(this.cbmBoPhan);
             this.Controls.Add(this.cmbGioiTinh);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmbChucVu);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -245,14 +246,14 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox cmbChucVu;
+        private System.Windows.Forms.ComboBox cbmBoPhan;
+        private System.Windows.Forms.ComboBox cmbBangCap;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox cbmQuocTich;
         private System.Windows.Forms.ComboBox cmbGioiTinh;
     }
 }
