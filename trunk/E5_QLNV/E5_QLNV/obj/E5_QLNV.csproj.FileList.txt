@@ -6,3 +6,4 @@ obj\Debug\E5_QLNV.csproj.GenerateResource.Cache
 obj\Debug\E5_QLNV.exe
 obj\Debug\E5_QLNV.pdb
 obj\Debug\E5_QLNV.TiepNhanNhanVien.resources
+obj\Debug\E5_QLNV.QLThongTinNhanVien.resources
