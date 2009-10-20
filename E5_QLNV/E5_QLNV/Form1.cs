@@ -14,5 +14,19 @@ namespace E5_QLNV
         {
             InitializeComponent();
         }
+
+        private void TiepNhanNhanVienToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TiepNhanNhanVien frm = new TiepNhanNhanVien();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void QLThongTinNhanVienToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            QLThongTinNhanVien frm = new QLThongTinNhanVien();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }

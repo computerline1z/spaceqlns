@@ -28,9 +28,9 @@ namespace E5_QLNV
             this.cmbQuocTich.DataSource = QuocTichBUS.LayQuocTich();
             cmbQuocTich.DisplayMember = "QuocTich";
             cmbQuocTich.ValueMember = "MaQuocTich";
-            int ma = NhanVienBUS.LayMaNVLonNhat();
-            ma = ma + 1;
-            this.txtMaNV.Text =ma.ToString ();
+            //int ma = NhanVienBUS.LayMaNVLonNhat();
+            //ma = ma + 1;
+            //this.txtMaNV.Text =ma.ToString ();
 
         }
         

@@ -50,12 +50,14 @@
             this.TiepNhanNhanVienToolStripMenuItem.Name = "TiepNhanNhanVienToolStripMenuItem";
             this.TiepNhanNhanVienToolStripMenuItem.Size = new System.Drawing.Size(128, 20);
             this.TiepNhanNhanVienToolStripMenuItem.Text = "Tiếp Nhận Nhân Viên";
+            this.TiepNhanNhanVienToolStripMenuItem.Click += new System.EventHandler(this.TiepNhanNhanVienToolStripMenuItem_Click);
             // 
             // QLThongTinNhanVienToolStripMenuItem
             // 
             this.QLThongTinNhanVienToolStripMenuItem.Name = "QLThongTinNhanVienToolStripMenuItem";
             this.QLThongTinNhanVienToolStripMenuItem.Size = new System.Drawing.Size(144, 20);
             this.QLThongTinNhanVienToolStripMenuItem.Text = "QL Thông Tin Nhân Viên";
+            this.QLThongTinNhanVienToolStripMenuItem.Click += new System.EventHandler(this.QLThongTinNhanVienToolStripMenuItem_Click);
             // 
             // Form1
             // 
