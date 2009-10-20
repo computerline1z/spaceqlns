@@ -113,26 +113,17 @@ CREATE TABLE [dbo].[NhanVien](
 ) ON [PRIMARY]
 GO
 
---ALTER TABLE [dbo].[GDThueBao]  WITH CHECK ADD  CONSTRAINT [FK_GDThueBao_ThueBao] FOREIGN KEY([MaThueBao])
---REFERENCES [dbo].[ThueBao] ([MaThueBao])
---GO
---ALTER TABLE [dbo].[GDThueBao] CHECK CONSTRAINT [FK_GDThueBao_ThueBao]
---GO
---/****** Object:  ForeignKey [FK_GDVCoin_ThueBao]    Script Date: 09/22/2009 15:52:20 ******/
---ALTER TABLE [dbo].[GDVCoin]  WITH CHECK ADD  CONSTRAINT [FK_GDVCoin_ThueBao] FOREIGN KEY([MaThueBao])
---REFERENCES [dbo].[ThueBao] ([MaThueBao])
---GO
---ALTER TABLE [dbo].[GDVCoin] CHECK CONSTRAINT [FK_GDVCoin_ThueBao]
---GO
---/****** Object:  ForeignKey [FK_ThueBao_KhachHang]    Script Date: 09/22/2009 15:52:23 ******/
---ALTER TABLE [dbo].[ThueBao]  WITH CHECK ADD  CONSTRAINT [FK_ThueBao_KhachHang] FOREIGN KEY([MaKhachHang])
---REFERENCES [dbo].[KhachHang] ([MaKhachHang])
---GO
---ALTER TABLE [dbo].[ThueBao] CHECK CONSTRAINT [FK_ThueBao_KhachHang]
---GO
---/****** Object:  ForeignKey [FK_TKVCoin_ThueBao]    Script Date: 09/22/2009 15:52:25 ******/
---ALTER TABLE [dbo].[TKVCoin]  WITH CHECK ADD  CONSTRAINT [FK_TKVCoin_ThueBao] FOREIGN KEY([MaThueBao])
---REFERENCES [dbo].[ThueBao] ([MaThueBao])
---GO
---ALTER TABLE [dbo].[TKVCoin] CHECK CONSTRAINT [FK_TKVCoin_ThueBao]
---GO
+/****** Object:  Table [dbo].[User]    Script Date: 10/20/2009 19:54:37 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[User](
+	[MaUser] [nvarchar](10)  NOT NULL,
+	[PassWord] [nvarchar](20) NOT NULL CONSTRAINT [DF_User_MaUser]  DEFAULT ((0)),
+ CONSTRAINT [PK_User] PRIMARY KEY CLUSTERED 
+(
+	[MaUser] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
