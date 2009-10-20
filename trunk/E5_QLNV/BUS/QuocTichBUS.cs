@@ -2,16 +2,16 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Data;
-using DAO;
 using DTO;
+using DAO;
 
 namespace BUS
 {
-   public class BangCapBUS
+    public class QuocTichBUS
     {
-        public static DataTable LayBangCap()
+        public static DataTable LayQuocTich()
         {
-            return BangCapDAO .LayBangCap ();
+            return QuocTichDAO.LayQuocTich();
         }
     }
 }
