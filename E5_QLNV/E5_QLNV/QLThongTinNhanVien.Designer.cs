@@ -230,6 +230,7 @@
             this.Controls.Add(this.txtMaNV);
             this.Name = "QLThongTinNhanVien";
             this.Text = "QLThongTinNhanVien";
+            this.Load += new System.EventHandler(this.OnLoad);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSach)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

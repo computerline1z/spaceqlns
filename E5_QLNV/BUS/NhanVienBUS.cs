@@ -13,5 +13,10 @@ namespace BUS
         {
             return NhanVienDAO.ThemNhanVien(nv);
         }
+
+        public static DataTable LoadDanhSach()
+        {
+            return NhanVienDAO.LoadDanhSach();
+        }
     }
 }
