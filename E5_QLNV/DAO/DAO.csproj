@@ -37,6 +37,8 @@
     <Compile Include="BoPhanDAO.cs" />
     <Compile Include="CDataAdapter.cs" />
     <Compile Include="ChucVuDAO.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="DuAnDAO.cs" />
     <Compile Include="NhanVienDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuocTichDAO.cs" />

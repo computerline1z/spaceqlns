@@ -4,75 +4,56 @@ using System.Text;
 
 namespace DTO
 {
-    class DuAnDTO
+   public class DuAnDTO
     {
 
         #region Attribute
-        protected int _MaNV;
-        protected String _HoTenNV;
-        protected int _GioiTinh;
-        protected DateTime _NgaySinh;
-        protected string _DiaChi;
-        protected int _MaBanngCap;
-        protected int _MaChucVu;
-        protected int _MaQuocTich;
-        protected int _MaBoPhan;
-        protected DateTime _NgayBatDauLamViec;
-
-
-
+        protected int _MaDuAn;
+        protected string _TenDuAn;
+        protected string _TenKhachHang;
+        protected float _Gia;
+        protected DateTime _NgayBatDau;
+        protected DateTime _NgayKetThuc; 
+        protected DateTime _NgayGiaoSanPham;
+       
         #endregion
         #region Property
-        public int MaNV
+        public int MaDuAn
         {
-            get { return _MaNV; }
-            set { _MaNV = value; }
+            get { return _MaDuAn; }
+            set { _MaDuAn = value; }
         }
-        public String HoTenNV
+        public string TenDuAn
         {
-            get { return _HoTenNV; }
-            set { _HoTenNV = value; }
+            get { return _TenDuAn; }
+            set { _TenDuAn = value; }
         }
-        public int GioiTinh
+        public string TenKhachHang
         {
-            get { return _GioiTinh; }
-            set { _GioiTinh = value; }
+            get { return _TenKhachHang; }
+            set {  _TenKhachHang = value; }
         }
-        public DateTime NgaySinh
+        public float  Gia
         {
-            get { return _NgaySinh; }
-            set { _NgaySinh = value; }
+            get { return _Gia; }
+            set { _Gia = value; }
         }
-        public string DiaChi
+        public DateTime NgayBatDau
         {
-            get { return _DiaChi; }
-            set { _DiaChi = value; }
+            get { return _NgayBatDau; }
+            set { _NgayBatDau = value; }
         }
-        public int MaBanngCap
+        public DateTime NgayKetThuc
         {
-            get { return _MaBanngCap; }
-            set { _MaBanngCap = value; }
+            get { return _NgayKetThuc; }
+            set { _NgayKetThuc = value; }
         }
-        public int MaChucVu
+        public DateTime NgayGiaoSanPham
         {
-            get { return _MaChucVu; }
-            set { _MaChucVu = value; }
+            get { return _NgayGiaoSanPham; }
+            set { _NgayGiaoSanPham = value; }
         }
-        public int MaQuocTich
-        {
-            get { return _MaQuocTich; }
-            set { _MaQuocTich = value; }
-        }
-        public int MaBoPhan
-        {
-            get { return _MaBoPhan; }
-            set { _MaBoPhan = value; }
-        }
-        public DateTime NgayBatDauLamViec
-        {
-            get { return _NgayBatDauLamViec; }
-            set { _NgayBatDauLamViec = value; }
-        }
+      
         #endregion
     }
 }
