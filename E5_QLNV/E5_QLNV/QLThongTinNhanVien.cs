@@ -18,7 +18,7 @@ namespace E5_QLNV
 
         private void OnLoad(object sender, EventArgs e)
         {
-            
+           
         }
 
     }
