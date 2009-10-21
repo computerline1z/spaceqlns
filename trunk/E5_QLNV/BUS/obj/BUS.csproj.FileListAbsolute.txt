@@ -1,0 +1,9 @@
+C:\Users\Tuyen Nguyen\Desktop\QLNV\E5_QLNV\BUS\bin\Debug\BUS.dll
+C:\Users\Tuyen Nguyen\Desktop\QLNV\E5_QLNV\BUS\bin\Debug\BUS.pdb
+C:\Users\Tuyen Nguyen\Desktop\QLNV\E5_QLNV\BUS\bin\Debug\DAO.dll
+C:\Users\Tuyen Nguyen\Desktop\QLNV\E5_QLNV\BUS\bin\Debug\DTO.dll
+C:\Users\Tuyen Nguyen\Desktop\QLNV\E5_QLNV\BUS\bin\Debug\DTO.pdb
+C:\Users\Tuyen Nguyen\Desktop\QLNV\E5_QLNV\BUS\bin\Debug\DAO.pdb
+C:\Users\Tuyen Nguyen\Desktop\QLNV\E5_QLNV\BUS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tuyen Nguyen\Desktop\QLNV\E5_QLNV\BUS\obj\Debug\BUS.dll
+C:\Users\Tuyen Nguyen\Desktop\QLNV\E5_QLNV\BUS\obj\Debug\BUS.pdb
