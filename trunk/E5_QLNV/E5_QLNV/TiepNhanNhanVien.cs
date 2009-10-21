@@ -62,6 +62,7 @@ namespace E5_QLNV
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             NhanVienDTO nv = new NhanVienDTO();
             //nv.MaNV = int.Parse(this.txtMaNV.Text.ToString());
             nv.HoTenNV = this.txtHoten.Text;
@@ -73,6 +74,7 @@ namespace E5_QLNV
             nv.MaQuocTich = int.Parse(this.comboBox1.SelectedValue.ToString());
             nv.NgaySinh = DateTime.Parse(this.txtNgaySinh.Text.ToString());
             nv.NgayBatDauLamViec = DateTime.Parse(this.txtNgayBatDauLV.Text.ToString());
+            
             if (NhanVienBUS.ThemNhanVien(nv) == true)
             {
                 this.lblThong.Text = "Tiếp nhận thành công!";
