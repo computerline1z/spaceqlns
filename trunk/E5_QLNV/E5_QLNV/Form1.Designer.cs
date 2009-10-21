@@ -73,8 +73,9 @@
             // QuanLyDangNhap
             // 
             this.QuanLyDangNhap.Name = "QuanLyDangNhap";
-            this.QuanLyDangNhap.Size = new System.Drawing.Size(134, 20);
-            this.QuanLyDangNhap.Text = "Quản Lý Đăng Nh^ập";
+            this.QuanLyDangNhap.Size = new System.Drawing.Size(126, 20);
+            this.QuanLyDangNhap.Text = "Quản Lý Đăng Nhập";
+            this.QuanLyDangNhap.Click += new System.EventHandler(this.QuanLyDangNhap_Click);
             // 
             // Form1
             // 

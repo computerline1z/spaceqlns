@@ -30,7 +30,6 @@
         {
             this.btnTiepNhan = new System.Windows.Forms.Button();
             this.txtHoten = new System.Windows.Forms.TextBox();
-            this.txtNgaySinh = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -46,13 +45,15 @@
             this.cmbGioiTinh = new System.Windows.Forms.ComboBox();
             this.txtDiaChi = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.txtNgayBatDauLV = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.lblThong = new System.Windows.Forms.Label();
-            this.btnreset = new System.Windows.Forms.Button();
+            this.btnThoat = new System.Windows.Forms.Button();
+            this.txtNgaySinh = new System.Windows.Forms.DateTimePicker();
+            this.txtNgayBatDauLV = new System.Windows.Forms.DateTimePicker();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnTiepNhan
@@ -63,7 +64,6 @@
             this.btnTiepNhan.TabIndex = 0;
             this.btnTiepNhan.Text = "Tiếp Nhận";
             this.btnTiepNhan.UseVisualStyleBackColor = true;
-            this.btnTiepNhan.Click += new System.EventHandler(this.btnTiepNhan_Click);
             // 
             // txtHoten
             // 
@@ -71,13 +71,6 @@
             this.txtHoten.Name = "txtHoten";
             this.txtHoten.Size = new System.Drawing.Size(121, 20);
             this.txtHoten.TabIndex = 1;
-            // 
-            // txtNgaySinh
-            // 
-            this.txtNgaySinh.Location = new System.Drawing.Point(121, 95);
-            this.txtNgaySinh.Name = "txtNgaySinh";
-            this.txtNgaySinh.Size = new System.Drawing.Size(121, 20);
-            this.txtNgaySinh.TabIndex = 1;
             // 
             // label2
             // 
@@ -212,13 +205,6 @@
             this.label10.TabIndex = 2;
             this.label10.Text = "Địa chỉ";
             // 
-            // txtNgayBatDauLV
-            // 
-            this.txtNgayBatDauLV.Location = new System.Drawing.Point(121, 157);
-            this.txtNgayBatDauLV.Name = "txtNgayBatDauLV";
-            this.txtNgayBatDauLV.Size = new System.Drawing.Size(121, 20);
-            this.txtNgayBatDauLV.TabIndex = 1;
-            // 
             // label11
             // 
             this.label11.AutoSize = true;
@@ -263,21 +249,50 @@
             this.lblThong.Size = new System.Drawing.Size(0, 13);
             this.lblThong.TabIndex = 2;
             // 
-            // btnreset
+            // btnThoat
             // 
-            this.btnreset.Location = new System.Drawing.Point(373, 228);
-            this.btnreset.Name = "btnreset";
-            this.btnreset.Size = new System.Drawing.Size(75, 23);
-            this.btnreset.TabIndex = 0;
-            this.btnreset.Text = "Thoat";
-            this.btnreset.UseVisualStyleBackColor = true;
-            this.btnreset.Click += new System.EventHandler(this.btnreset_Click);
+            this.btnThoat.Location = new System.Drawing.Point(475, 228);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(75, 23);
+            this.btnThoat.TabIndex = 0;
+            this.btnThoat.Text = "Thoat";
+            this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
+            // 
+            // txtNgaySinh
+            // 
+            this.txtNgaySinh.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.txtNgaySinh.Location = new System.Drawing.Point(121, 98);
+            this.txtNgaySinh.Name = "txtNgaySinh";
+            this.txtNgaySinh.Size = new System.Drawing.Size(121, 20);
+            this.txtNgaySinh.TabIndex = 24;
+            // 
+            // txtNgayBatDauLV
+            // 
+            this.txtNgayBatDauLV.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.txtNgayBatDauLV.Location = new System.Drawing.Point(121, 156);
+            this.txtNgayBatDauLV.Name = "txtNgayBatDauLV";
+            this.txtNgayBatDauLV.Size = new System.Drawing.Size(121, 20);
+            this.txtNgayBatDauLV.TabIndex = 26;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(376, 228);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 27;
+            this.button2.Text = "Reset";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // TiepNhanNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(617, 301);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.txtNgayBatDauLV);
+            this.Controls.Add(this.txtNgaySinh);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.cmbQuocTich);
             this.Controls.Add(this.cmbBangCap);
@@ -296,11 +311,9 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.txtNgayBatDauLV);
             this.Controls.Add(this.txtDiaChi);
-            this.Controls.Add(this.txtNgaySinh);
             this.Controls.Add(this.txtHoten);
-            this.Controls.Add(this.btnreset);
+            this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnTiepNhan);
             this.Name = "TiepNhanNhanVien";
@@ -315,7 +328,6 @@
 
         private System.Windows.Forms.Button btnTiepNhan;
         private System.Windows.Forms.TextBox txtHoten;
-        private System.Windows.Forms.TextBox txtNgaySinh;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -331,12 +343,14 @@
         private System.Windows.Forms.ComboBox cmbGioiTinh;
         private System.Windows.Forms.TextBox txtDiaChi;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox txtNgayBatDauLV;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label lblThong;
-        private System.Windows.Forms.Button btnreset;
+        private System.Windows.Forms.Button btnThoat;
+        private System.Windows.Forms.DateTimePicker txtNgaySinh;
+        private System.Windows.Forms.DateTimePicker txtNgayBatDauLV;
+        private System.Windows.Forms.Button button2;
     }
 }
