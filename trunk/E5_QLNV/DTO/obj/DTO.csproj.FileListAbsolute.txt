@@ -1,0 +1,5 @@
+C:\Users\Tuyen Nguyen\Desktop\QLNV\E5_QLNV\DTO\bin\Debug\DTO.dll
+C:\Users\Tuyen Nguyen\Desktop\QLNV\E5_QLNV\DTO\bin\Debug\DTO.pdb
+C:\Users\Tuyen Nguyen\Desktop\QLNV\E5_QLNV\DTO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tuyen Nguyen\Desktop\QLNV\E5_QLNV\DTO\obj\Debug\DTO.dll
+C:\Users\Tuyen Nguyen\Desktop\QLNV\E5_QLNV\DTO\obj\Debug\DTO.pdb
