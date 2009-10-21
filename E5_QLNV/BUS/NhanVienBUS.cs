@@ -18,5 +18,13 @@ namespace BUS
         {
             return NhanVienDAO.LoadALl();
         }
+        public static int Delete(int MaNV)
+        {
+            return NhanVienDAO.DeleteNhanVien(MaNV);
+        }
+        public static int Update(NhanVienDTO nv)
+        {
+            return NhanVienDAO.UpdateNhanVien(nv);
+        }
     }
 }
