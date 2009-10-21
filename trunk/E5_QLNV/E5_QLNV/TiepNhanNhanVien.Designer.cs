@@ -29,10 +29,8 @@
         private void InitializeComponent()
         {
             this.btnTiepNhan = new System.Windows.Forms.Button();
-            this.txtMaNV = new System.Windows.Forms.TextBox();
             this.txtHoten = new System.Windows.Forms.TextBox();
             this.txtNgaySinh = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -67,40 +65,24 @@
             this.btnTiepNhan.UseVisualStyleBackColor = true;
             this.btnTiepNhan.Click += new System.EventHandler(this.btnTiepNhan_Click);
             // 
-            // txtMaNV
-            // 
-            this.txtMaNV.Location = new System.Drawing.Point(132, 54);
-            this.txtMaNV.Name = "txtMaNV";
-            this.txtMaNV.Size = new System.Drawing.Size(121, 20);
-            this.txtMaNV.TabIndex = 1;
-            // 
             // txtHoten
             // 
-            this.txtHoten.Location = new System.Drawing.Point(132, 84);
+            this.txtHoten.Location = new System.Drawing.Point(121, 65);
             this.txtHoten.Name = "txtHoten";
             this.txtHoten.Size = new System.Drawing.Size(121, 20);
             this.txtHoten.TabIndex = 1;
             // 
             // txtNgaySinh
             // 
-            this.txtNgaySinh.Location = new System.Drawing.Point(132, 114);
+            this.txtNgaySinh.Location = new System.Drawing.Point(121, 95);
             this.txtNgaySinh.Name = "txtNgaySinh";
             this.txtNgaySinh.Size = new System.Drawing.Size(121, 20);
             this.txtNgaySinh.TabIndex = 1;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(39, 57);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Mã Nhân Viên";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(39, 87);
+            this.label2.Location = new System.Drawing.Point(28, 68);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 13);
             this.label2.TabIndex = 2;
@@ -118,7 +100,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(39, 121);
+            this.label4.Location = new System.Drawing.Point(28, 102);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(56, 13);
             this.label4.TabIndex = 2;
@@ -216,7 +198,7 @@
             // 
             // txtDiaChi
             // 
-            this.txtDiaChi.Location = new System.Drawing.Point(132, 145);
+            this.txtDiaChi.Location = new System.Drawing.Point(121, 126);
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.Size = new System.Drawing.Size(121, 20);
             this.txtDiaChi.TabIndex = 1;
@@ -224,7 +206,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(39, 148);
+            this.label10.Location = new System.Drawing.Point(28, 129);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(40, 13);
             this.label10.TabIndex = 2;
@@ -232,7 +214,7 @@
             // 
             // txtNgayBatDauLV
             // 
-            this.txtNgayBatDauLV.Location = new System.Drawing.Point(132, 176);
+            this.txtNgayBatDauLV.Location = new System.Drawing.Point(121, 157);
             this.txtNgayBatDauLV.Name = "txtNgayBatDauLV";
             this.txtNgayBatDauLV.Size = new System.Drawing.Size(121, 20);
             this.txtNgayBatDauLV.TabIndex = 1;
@@ -240,7 +222,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(39, 148);
+            this.label11.Location = new System.Drawing.Point(28, 129);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(40, 13);
             this.label11.TabIndex = 2;
@@ -257,7 +239,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(22, 179);
+            this.label12.Location = new System.Drawing.Point(11, 160);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(92, 13);
             this.label12.TabIndex = 2;
@@ -271,7 +253,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Tiếp Nhận";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.btnTiepNhan_Click);
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // lblThong
             // 
@@ -314,17 +296,16 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNgayBatDauLV);
             this.Controls.Add(this.txtDiaChi);
             this.Controls.Add(this.txtNgaySinh);
             this.Controls.Add(this.txtHoten);
-            this.Controls.Add(this.txtMaNV);
             this.Controls.Add(this.btnreset);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnTiepNhan);
             this.Name = "TiepNhanNhanVien";
             this.Text = "TiepNhanNhanVien";
+            this.Load += new System.EventHandler(this.TiepNhanNhanVien_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -333,10 +314,8 @@
         #endregion
 
         private System.Windows.Forms.Button btnTiepNhan;
-        private System.Windows.Forms.TextBox txtMaNV;
         private System.Windows.Forms.TextBox txtHoten;
         private System.Windows.Forms.TextBox txtNgaySinh;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;

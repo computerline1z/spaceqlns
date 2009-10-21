@@ -14,3 +14,4 @@ bin\Debug\DTO.dll
 bin\Debug\BUS.pdb
 bin\Debug\DAO.pdb
 bin\Debug\DTO.pdb
+obj\Debug\E5_QLNV.TiepNhanDuAn.resources

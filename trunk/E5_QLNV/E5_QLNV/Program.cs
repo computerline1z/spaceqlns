@@ -14,7 +14,7 @@ namespace E5_QLNV
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TinhLuong ());
+            Application.Run(new Form1 ());
         }
     }
 }

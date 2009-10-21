@@ -2,9 +2,21 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
+using DAO;
+using DTO;
+
 namespace BUS
 {
-    class DuAnBUS
+    public class DuAnBUS
     {
+
+
+        public static bool ThemDuAn(DuAnDTO dan)
+        {
+            return DuAnDAO.ThemDuAn (dan);
+        }
+
+        
     }
+   
 }

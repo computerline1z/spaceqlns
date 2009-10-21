@@ -57,6 +57,7 @@ namespace E5_QLNV
             //int ma = NhanVienBUS.LayMaNVLonNhat();
             //ma = ma + 1;
             //this.txtMaNV.Text =ma.ToString ();
+           
         }
 
         private void button1_Click(object sender, EventArgs e)

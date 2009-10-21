@@ -36,6 +36,7 @@
     <Compile Include="BangCapBUS.cs" />
     <Compile Include="BoPhanBUS.cs" />
     <Compile Include="ChucVuBUS.cs" />
+    <Compile Include="DuAnBUS.cs" />
     <Compile Include="NhanVienBUS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuocTichBUS.cs" />
