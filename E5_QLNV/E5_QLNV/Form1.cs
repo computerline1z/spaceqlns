@@ -35,5 +35,12 @@ namespace E5_QLNV
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void QuanLyDangNhap_Click(object sender, EventArgs e)
+        {
+            QLNV frm = new QLNV();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }

@@ -18,22 +18,6 @@ namespace E5_QLNV
             InitializeComponent();            
 
         }
-        
-        private void btnTiepNhan_Click(object sender, EventArgs e)
-        {
-            
-
- 
-        }
-
-        private void btnreset_Click(object sender, EventArgs e)
-        {            
-            this.txtHoten.Text = "";
-            this.txtDiaChi.Text = "";
-            this.txtNgayBatDauLV.Text = "";
-            this.txtNgaySinh.Text = "";
-            this.lblThong.Text = "";
-        }
 
         private void TiepNhanNhanVien_Load(object sender, EventArgs e)
         {
@@ -68,7 +52,7 @@ namespace E5_QLNV
             nv.HoTenNV = this.txtHoten.Text;
             nv.GioiTinh = this.cmbGioiTinh.SelectedIndex;
             nv.DiaChi = this.txtDiaChi.Text;
-            nv.MaBanngCap = int.Parse(this.cmbBangCap.SelectedValue.ToString());
+            nv.MaBangCap = int.Parse(this.cmbBangCap.SelectedValue.ToString());
             nv.MaBoPhan = int.Parse(this.cmbBoPhan.SelectedValue.ToString());
             nv.MaChucVu = int.Parse(this.cmbChucVu.SelectedValue.ToString());
             nv.MaQuocTich = int.Parse(this.comboBox1.SelectedValue.ToString());
@@ -80,6 +64,20 @@ namespace E5_QLNV
                 this.lblThong.Text = "Tiếp nhận thành công!";
             }
 
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.txtHoten.Text = "";
+            this.txtDiaChi.Text = "";
+            this.txtNgayBatDauLV.Text = "";
+            this.txtNgaySinh.Text = "";
+            this.lblThong.Text = "";
         }
 
         
