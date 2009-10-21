@@ -7,12 +7,13 @@ namespace DAO
 {
     public class DuAnDAO
     {
-        public static bool ThemDuAN(DuAnDTO dan)
+        public static bool ThemDuAn(DuAnDTO dan)
         {
 
             bool kq = false;
-            string sql = "insert into DuAn values(" + dan.MaDuAn.ToString() + ",N" + dan.TenDuAn + "," + dan.TenKhachHang;
-            sql += ",N" + dan.Gia.ToString() + "," + dan.NgayBatDau.ToString () + "," +dan.NgayKetThuc.ToString() + "," dan.NgayGiaoSanPham.ToString() + ")";
+            string sql = "insert into DuAn values(N'"   + dan.TenDuAn + "','" ;
+            sql +=  dan.NgayBatDau.ToString () + "','" + dan.NgayKetThuc.ToString() + "','" + dan.NgayGiaoSanPham.ToString();
+            sql+="',N'"+dan.TenKhachHang +"',"+dan .Gia .ToString ()+")";            
            CDataAdapter c = new CDataAdapter();
             int n = c.ExecuteNonQuery(sql);
             
@@ -21,4 +22,5 @@ namespace DAO
             return kq;
         }
     }
+    
 }

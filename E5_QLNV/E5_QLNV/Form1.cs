@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,6 +25,13 @@ namespace E5_QLNV
         private void QLThongTinNhanVienToolStripMenuItem_Click(object sender, EventArgs e)
         {
             QLThongTinNhanVien frm = new QLThongTinNhanVien();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void TiepNhanDuAn_Click(object sender, EventArgs e)
+        {
+            TiepNhanDuAn frm = new TiepNhanDuAn();
             frm.MdiParent = this;
             frm.Show();
         }

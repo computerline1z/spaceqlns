@@ -13,15 +13,17 @@ namespace DAO
         {       
             
             bool kq = false;
-            string sql = "insert into NhanVien values("+nv.MaNV.ToString ()+",N'"+nv.HoTenNV +"',"+nv.GioiTinh +","+nv.NgaySinh .ToString ();
-            sql += ",N'" + nv.DiaChi + "'," + nv.MaBanngCap.ToString() + "," + nv.MaChucVu.ToString() + "," + nv.MaQuocTich.ToString() + ",";
-            sql += nv.MaBoPhan.ToString ()+","+nv.NgayBatDauLamViec.ToString ()+")";
+            string sql = "insert into NhanVien values(N'"+nv.HoTenNV +"',"+nv.GioiTinh +",'"+nv.NgaySinh.ToShortDateString();
+            sql += "',N'" + nv.DiaChi + "'," + nv.MaBanngCap.ToString() + "," + nv.MaChucVu.ToString() + "," + nv.MaQuocTich.ToString() + ",";
+            sql += nv.MaBoPhan.ToString ()+",'"+nv.NgayBatDauLamViec.ToShortDateString ()+"')";
             CDataAdapter c=new CDataAdapter ();
             int n =c.ExecuteNonQuery(sql);
             if (n !=0)
                 kq = true;
             return kq;
         }
+
+        
 
         public static List<NhanVienDTO> LoadALl()
         {
