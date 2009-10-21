@@ -32,6 +32,7 @@
             this.TiepNhanNhanVienToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.QLThongTinNhanVienToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.TiepNhanDuAn = new System.Windows.Forms.ToolStripMenuItem();
+            this.QuanLyDangNhap = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -40,7 +41,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.TiepNhanNhanVienToolStripMenuItem,
             this.QLThongTinNhanVienToolStripMenuItem,
-            this.TiepNhanDuAn});
+            this.TiepNhanDuAn,
+            this.QuanLyDangNhap});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(564, 24);
@@ -50,23 +52,29 @@
             // TiepNhanNhanVienToolStripMenuItem
             // 
             this.TiepNhanNhanVienToolStripMenuItem.Name = "TiepNhanNhanVienToolStripMenuItem";
-            this.TiepNhanNhanVienToolStripMenuItem.Size = new System.Drawing.Size(118, 20);
+            this.TiepNhanNhanVienToolStripMenuItem.Size = new System.Drawing.Size(132, 20);
             this.TiepNhanNhanVienToolStripMenuItem.Text = "Tiếp Nhận Nhân Viên";
             this.TiepNhanNhanVienToolStripMenuItem.Click += new System.EventHandler(this.TiepNhanNhanVienToolStripMenuItem_Click);
             // 
             // QLThongTinNhanVienToolStripMenuItem
             // 
             this.QLThongTinNhanVienToolStripMenuItem.Name = "QLThongTinNhanVienToolStripMenuItem";
-            this.QLThongTinNhanVienToolStripMenuItem.Size = new System.Drawing.Size(133, 20);
+            this.QLThongTinNhanVienToolStripMenuItem.Size = new System.Drawing.Size(150, 20);
             this.QLThongTinNhanVienToolStripMenuItem.Text = "QL Thông Tin Nhân Viên";
             this.QLThongTinNhanVienToolStripMenuItem.Click += new System.EventHandler(this.QLThongTinNhanVienToolStripMenuItem_Click);
             // 
             // TiepNhanDuAn
             // 
             this.TiepNhanDuAn.Name = "TiepNhanDuAn";
-            this.TiepNhanDuAn.Size = new System.Drawing.Size(100, 20);
+            this.TiepNhanDuAn.Size = new System.Drawing.Size(110, 20);
             this.TiepNhanDuAn.Text = "Tiếp Nhận Dự Án";
             this.TiepNhanDuAn.Click += new System.EventHandler(this.TiepNhanDuAn_Click);
+            // 
+            // QuanLyDangNhap
+            // 
+            this.QuanLyDangNhap.Name = "QuanLyDangNhap";
+            this.QuanLyDangNhap.Size = new System.Drawing.Size(134, 20);
+            this.QuanLyDangNhap.Text = "Quản Lý Đăng Nh^ập";
             // 
             // Form1
             // 
@@ -92,6 +100,7 @@
         private System.Windows.Forms.ToolStripMenuItem TiepNhanNhanVienToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem QLThongTinNhanVienToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem TiepNhanDuAn;
+        private System.Windows.Forms.ToolStripMenuItem QuanLyDangNhap;
     }
 }
 

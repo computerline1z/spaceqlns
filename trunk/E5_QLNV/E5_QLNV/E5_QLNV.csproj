@@ -53,6 +53,10 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="QLNV.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>QLNV.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="QLThongTinNhanVien.resx">
       <SubType>Designer</SubType>
       <DependentUpon>QLThongTinNhanVien.cs</DependentUpon>
@@ -78,6 +82,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="QLNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNV.Designer.cs">
+      <DependentUpon>QLNV.cs</DependentUpon>
     </Compile>
     <Compile Include="QLThongTinNhanVien.cs">
       <SubType>Form</SubType>
