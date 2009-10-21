@@ -48,7 +48,7 @@ namespace DTO
             get { return _DiaChi; }
             set { _DiaChi = value; }
         }
-        public int MaBanngCap
+        public int MaBangCap
         {
             get { return _MaBanngCap; }
             set { _MaBanngCap = value; }
