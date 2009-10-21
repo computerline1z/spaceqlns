@@ -8,7 +8,7 @@ namespace DAO
 {
     public class CDataAdapter
     {
-        private string strConnection = "Data Source=.\\SQLEXPRESS ;Initial Catalog=QLNV; Integrated Security = True";
+        private string strConnection = "Data Source=DUYTUYEN-PC ;Initial Catalog=QLNV; Integrated Security = True";
         private SqlConnection mCon = null;
         public CDataAdapter()
         {
