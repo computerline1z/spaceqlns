@@ -1,0 +1,526 @@
+<HTML>
+<!-- Sitemap 1.0 -->
+<OBJECT type="text/site properties">
+</OBJECT>
+
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="BUS Namespace">
+		<param name="Name" value="BUS Namespace">
+		<param name="Local" value="topic_0000000000000045.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="BangCap Property">
+		<param name="Name" value="BangCap Property">
+		<param name="Local" value="topic_000000000000000E.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="BangCapBUS Class">
+		<param name="Name" value="BangCapBUS Class">
+		<param name="Local" value="topic_0000000000000046.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="BangCapDAO Class">
+		<param name="Name" value="BangCapDAO Class">
+		<param name="Local" value="topic_0000000000000030.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="BangCapDTO Class">
+		<param name="Name" value="BangCapDTO Class">
+		<param name="Local" value="topic_000000000000000D.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="BoPhan Property">
+		<param name="Name" value="BoPhan Property">
+		<param name="Local" value="topic_0000000000000012.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="BoPhanBUS Class">
+		<param name="Name" value="BoPhanBUS Class">
+		<param name="Local" value="topic_0000000000000048.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="BoPhanDAO Class">
+		<param name="Name" value="BoPhanDAO Class">
+		<param name="Local" value="topic_0000000000000032.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="BoPhanDTO Class">
+		<param name="Name" value="BoPhanDTO Class">
+		<param name="Local" value="topic_0000000000000010.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="CDataAdapter Class">
+		<param name="Name" value="CDataAdapter Class">
+		<param name="Local" value="topic_0000000000000034.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="CDataAdapter Constructor">
+		<param name="Name" value="CDataAdapter Constructor">
+		<param name="Local" value="topic_0000000000000035.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="CheckLogin Method {BUS.ThanhVienBUS}">
+		<param name="Name" value="CheckLogin Method {BUS.ThanhVienBUS}">
+		<param name="Local" value="topic_0000000000000056.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="CheckLogin Method {DAO.ThanhVienDAO}">
+		<param name="Name" value="CheckLogin Method {DAO.ThanhVienDAO}">
+		<param name="Local" value="topic_0000000000000044.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="ChucVu Property">
+		<param name="Name" value="ChucVu Property">
+		<param name="Local" value="topic_0000000000000014.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="ChucVuBUS Class">
+		<param name="Name" value="ChucVuBUS Class">
+		<param name="Local" value="topic_000000000000004A.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="ChucVuDAO Class">
+		<param name="Name" value="ChucVuDAO Class">
+		<param name="Local" value="topic_0000000000000038.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="ChucVuDTO Class">
+		<param name="Name" value="ChucVuDTO Class">
+		<param name="Local" value="topic_0000000000000013.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="DAO Namespace">
+		<param name="Name" value="DAO Namespace">
+		<param name="Local" value="topic_000000000000002F.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="DTO Namespace">
+		<param name="Name" value="DTO Namespace">
+		<param name="Local" value="topic_000000000000000C.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Delete Method">
+		<param name="Name" value="Delete Method">
+		<param name="Local" value="topic_0000000000000051.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="DeleteNhanVien Method">
+		<param name="Name" value="DeleteNhanVien Method">
+		<param name="Local" value="topic_0000000000000040.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="DiaChi Property">
+		<param name="Name" value="DiaChi Property">
+		<param name="Local" value="topic_0000000000000025.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="DuAnBUS Class">
+		<param name="Name" value="DuAnBUS Class">
+		<param name="Local" value="topic_000000000000004C.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="DuAnDAO Class">
+		<param name="Name" value="DuAnDAO Class">
+		<param name="Local" value="topic_000000000000003A.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="DuAnDTO Class">
+		<param name="Name" value="DuAnDTO Class">
+		<param name="Local" value="topic_0000000000000016.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="E5_QLNV Namespace">
+		<param name="Name" value="E5_QLNV Namespace">
+		<param name="Local" value="topic_0000000000000000.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="ExecuteNonQuery Method">
+		<param name="Name" value="ExecuteNonQuery Method">
+		<param name="Local" value="topic_0000000000000036.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="ExecuteQuery Method">
+		<param name="Name" value="ExecuteQuery Method">
+		<param name="Local" value="topic_0000000000000037.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Form1 Class">
+		<param name="Name" value="Form1 Class">
+		<param name="Local" value="topic_000000000000000A.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Form1 Constructor">
+		<param name="Name" value="Form1 Constructor">
+		<param name="Local" value="topic_000000000000000B.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Gia Property">
+		<param name="Name" value="Gia Property">
+		<param name="Local" value="topic_0000000000000018.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="GioiTinh Property">
+		<param name="Name" value="GioiTinh Property">
+		<param name="Local" value="topic_0000000000000020.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="HoTenNV Property">
+		<param name="Name" value="HoTenNV Property">
+		<param name="Local" value="topic_0000000000000026.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="LoadALl Method">
+		<param name="Name" value="LoadALl Method">
+		<param name="Local" value="topic_000000000000003E.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="LoadAll Method {BUS.BangCapBUS}">
+		<param name="Name" value="LoadAll Method {BUS.BangCapBUS}">
+		<param name="Local" value="topic_0000000000000047.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="LoadAll Method {BUS.BoPhanBUS}">
+		<param name="Name" value="LoadAll Method {BUS.BoPhanBUS}">
+		<param name="Local" value="topic_0000000000000049.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="LoadAll Method {BUS.ChucVuBUS}">
+		<param name="Name" value="LoadAll Method {BUS.ChucVuBUS}">
+		<param name="Local" value="topic_000000000000004B.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="LoadAll Method {BUS.NhanVienBUS}">
+		<param name="Name" value="LoadAll Method {BUS.NhanVienBUS}">
+		<param name="Local" value="topic_0000000000000050.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="LoadAll Method {BUS.QuocTichBUS}">
+		<param name="Name" value="LoadAll Method {BUS.QuocTichBUS}">
+		<param name="Local" value="topic_0000000000000054.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="LoadAll Method {DAO.BangCapDAO}">
+		<param name="Name" value="LoadAll Method {DAO.BangCapDAO}">
+		<param name="Local" value="topic_0000000000000031.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="LoadAll Method {DAO.BoPhanDAO}">
+		<param name="Name" value="LoadAll Method {DAO.BoPhanDAO}">
+		<param name="Local" value="topic_0000000000000033.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="LoadAll Method {DAO.ChucVuDAO}">
+		<param name="Name" value="LoadAll Method {DAO.ChucVuDAO}">
+		<param name="Local" value="topic_0000000000000039.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="LoadAll Method {DAO.QuocTichDAO}">
+		<param name="Name" value="LoadAll Method {DAO.QuocTichDAO}">
+		<param name="Local" value="topic_0000000000000042.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="MaBangCap Property {DTO.BangCapDTO}">
+		<param name="Name" value="MaBangCap Property {DTO.BangCapDTO}">
+		<param name="Local" value="topic_000000000000000F.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="MaBangCap Property {DTO.NhanVienDTO}">
+		<param name="Name" value="MaBangCap Property {DTO.NhanVienDTO}">
+		<param name="Local" value="topic_0000000000000022.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="MaBoPhan Property {DTO.BoPhanDTO}">
+		<param name="Name" value="MaBoPhan Property {DTO.BoPhanDTO}">
+		<param name="Local" value="topic_0000000000000011.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="MaBoPhan Property {DTO.NhanVienDTO}">
+		<param name="Name" value="MaBoPhan Property {DTO.NhanVienDTO}">
+		<param name="Local" value="topic_0000000000000024.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="MaChucVu Property {DTO.ChucVuDTO}">
+		<param name="Name" value="MaChucVu Property {DTO.ChucVuDTO}">
+		<param name="Local" value="topic_0000000000000015.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="MaChucVu Property {DTO.NhanVienDTO}">
+		<param name="Name" value="MaChucVu Property {DTO.NhanVienDTO}">
+		<param name="Local" value="topic_0000000000000023.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="MaDuAn Property">
+		<param name="Name" value="MaDuAn Property">
+		<param name="Local" value="topic_000000000000001B.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="MaNV Property">
+		<param name="Name" value="MaNV Property">
+		<param name="Local" value="topic_0000000000000021.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="MaQuocTich Property {DTO.NhanVienDTO}">
+		<param name="Name" value="MaQuocTich Property {DTO.NhanVienDTO}">
+		<param name="Local" value="topic_0000000000000028.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="MaQuocTich Property {DTO.QuocTichDTO}">
+		<param name="Name" value="MaQuocTich Property {DTO.QuocTichDTO}">
+		<param name="Local" value="topic_000000000000002A.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="MaUser Property">
+		<param name="Name" value="MaUser Property">
+		<param name="Local" value="topic_000000000000002D.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="NgayBatDau Property">
+		<param name="Name" value="NgayBatDau Property">
+		<param name="Local" value="topic_000000000000001A.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="NgayBatDauLamViec Property">
+		<param name="Name" value="NgayBatDauLamViec Property">
+		<param name="Local" value="topic_0000000000000027.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="NgayGiaoSanPham Property">
+		<param name="Name" value="NgayGiaoSanPham Property">
+		<param name="Local" value="topic_0000000000000017.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="NgayKetThuc Property">
+		<param name="Name" value="NgayKetThuc Property">
+		<param name="Local" value="topic_000000000000001C.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="NgaySinh Property">
+		<param name="Name" value="NgaySinh Property">
+		<param name="Local" value="topic_000000000000001F.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="NhanVienBUS Class">
+		<param name="Name" value="NhanVienBUS Class">
+		<param name="Local" value="topic_000000000000004E.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="NhanVienDAO Class">
+		<param name="Name" value="NhanVienDAO Class">
+		<param name="Local" value="topic_000000000000003C.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="NhanVienDTO Class">
+		<param name="Name" value="NhanVienDTO Class">
+		<param name="Local" value="topic_000000000000001E.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Password Property">
+		<param name="Name" value="Password Property">
+		<param name="Local" value="topic_000000000000002E.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="QLNV Class">
+		<param name="Name" value="QLNV Class">
+		<param name="Local" value="topic_0000000000000005.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="QLNV Constructor">
+		<param name="Name" value="QLNV Constructor">
+		<param name="Local" value="topic_0000000000000006.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="QLThongTinNhanVien Class">
+		<param name="Name" value="QLThongTinNhanVien Class">
+		<param name="Local" value="topic_0000000000000001.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="QLThongTinNhanVien Constructor">
+		<param name="Name" value="QLThongTinNhanVien Constructor">
+		<param name="Local" value="topic_0000000000000002.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="QuocTich Property">
+		<param name="Name" value="QuocTich Property">
+		<param name="Local" value="topic_000000000000002B.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="QuocTichBUS Class">
+		<param name="Name" value="QuocTichBUS Class">
+		<param name="Local" value="topic_0000000000000053.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="QuocTichDAO Class">
+		<param name="Name" value="QuocTichDAO Class">
+		<param name="Local" value="topic_0000000000000041.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="QuocTichDTO Class">
+		<param name="Name" value="QuocTichDTO Class">
+		<param name="Local" value="topic_0000000000000029.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="TenDuAn Property">
+		<param name="Name" value="TenDuAn Property">
+		<param name="Local" value="topic_000000000000001D.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="TenKhachHang Property">
+		<param name="Name" value="TenKhachHang Property">
+		<param name="Local" value="topic_0000000000000019.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="ThanhVienBUS Class">
+		<param name="Name" value="ThanhVienBUS Class">
+		<param name="Local" value="topic_0000000000000055.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="ThanhVienDAO Class">
+		<param name="Name" value="ThanhVienDAO Class">
+		<param name="Local" value="topic_0000000000000043.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="ThanhVienDTO Class">
+		<param name="Name" value="ThanhVienDTO Class">
+		<param name="Local" value="topic_000000000000002C.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="ThemDuAn Method {BUS.DuAnBUS}">
+		<param name="Name" value="ThemDuAn Method {BUS.DuAnBUS}">
+		<param name="Local" value="topic_000000000000004D.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="ThemDuAn Method {DAO.DuAnDAO}">
+		<param name="Name" value="ThemDuAn Method {DAO.DuAnDAO}">
+		<param name="Local" value="topic_000000000000003B.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="ThemNhanVien Method {BUS.NhanVienBUS}">
+		<param name="Name" value="ThemNhanVien Method {BUS.NhanVienBUS}">
+		<param name="Local" value="topic_000000000000004F.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="ThemNhanVien Method {DAO.NhanVienDAO}">
+		<param name="Name" value="ThemNhanVien Method {DAO.NhanVienDAO}">
+		<param name="Local" value="topic_000000000000003D.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="TiepNhanDuAn Class">
+		<param name="Name" value="TiepNhanDuAn Class">
+		<param name="Local" value="topic_0000000000000003.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="TiepNhanDuAn Constructor">
+		<param name="Name" value="TiepNhanDuAn Constructor">
+		<param name="Local" value="topic_0000000000000004.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="TiepNhanNhanVien Class">
+		<param name="Name" value="TiepNhanNhanVien Class">
+		<param name="Local" value="topic_0000000000000007.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="TiepNhanNhanVien Constructor">
+		<param name="Name" value="TiepNhanNhanVien Constructor">
+		<param name="Local" value="topic_0000000000000008.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Update Method">
+		<param name="Name" value="Update Method">
+		<param name="Local" value="topic_0000000000000052.html">
+		</OBJECT>
+
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="UpdateNhanVien Method">
+		<param name="Name" value="UpdateNhanVien Method">
+		<param name="Local" value="topic_000000000000003F.html">
+		</OBJECT>
+
+
+</UL>
+
+</HTML>
